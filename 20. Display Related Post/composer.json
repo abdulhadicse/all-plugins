@@ -1,0 +1,20 @@
+{
+    "name": "abdul-hadi/display-related-post",
+    "description": "This is demo widgets",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Abdul Hadi",
+            "email": "abdul.hadi.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RelatedPost\\" : "includes/"
+        },
+        "files": []
+    }
+}

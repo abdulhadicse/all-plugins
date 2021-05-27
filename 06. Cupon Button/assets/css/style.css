@@ -1,0 +1,57 @@
+.optin-coupon-wrap {
+  transform: rotate(-90deg);
+  background: #fff;
+  box-shadow: 0 22px 79px 0 rgb(0 0 0 / 11%);
+  width: 166px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px 5px 0 0;
+  flex-direction: column;
+}
+
+.optin-coupon-wrap .coupon-image {
+  line-height: 0;
+  margin-right: 10px;
+}
+
+.optin-coupon-wrap .coupon-text1 span {
+  transform: rotate(-90deg);
+  font-weight: 400;
+  font-size: 18px;
+  color: #9f9f9f;
+  letter-spacing: 0.23px;
+  text-transform: uppercase;
+}
+
+.optin-coupon-section {
+  display: inline-block;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -58px;
+  z-index: 9999;
+}
+
+.hwd {
+  display: flex;
+}
+
+.hwd1 {
+  display: none;
+}
+
+#text-size-span {
+  font-size: 13px;
+}
+
+.optin-coupon-wrap:hover {
+  height: 80px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.optin-coupon-wrap:hover .hwd1 {
+  display: inline-block;
+}

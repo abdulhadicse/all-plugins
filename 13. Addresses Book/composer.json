@@ -1,0 +1,20 @@
+{
+    "name": "abdulhadicse/address-book",
+    "description": "This plugin create a new user info and save data in db.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Abdul Hadi",
+            "email": "abdul.hadi.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AddressBook\\": "includes/"
+        },
+        "files": ["includes/functions.php"]
+    }
+}

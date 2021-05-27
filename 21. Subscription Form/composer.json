@@ -1,0 +1,20 @@
+{
+    "name": "abdul-hadi/wp-subscription-form",
+    "description": "This is a subdcription form plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Abdul Hadi",
+            "email": "abdul.hadi.cse@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WPCFORM\\" : "includes/"
+        },
+        "files": []
+    }
+}

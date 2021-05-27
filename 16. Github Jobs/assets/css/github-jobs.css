@@ -1,0 +1,56 @@
+ #container #myInput {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #container #myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+
+  #container #mySearchTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+  }
+  
+  #container #myTable th, #myTable td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #container #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #container #myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  #container #g_search{
+    display: flex;
+  }
+
+  #container #mySearchTable th, #mySearchTable td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  #container #mySearchTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #container #mySearchTable tr.header, #mySearchTable tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  #job_details{
+    border:  1px solid rgb(49, 2, 2) ;
+    padding: 5px;
+  }
