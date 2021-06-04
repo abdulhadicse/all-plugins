@@ -1,5 +1,6 @@
-## Related Posts Plugin
-In the plugin where you'll have to add a new dashboard widget and display latest 5 posts title. Widget needs to be customizable eg: user can input number of posts to display, sort post, select a category etc. 
+## Woocommerce Related Product
+In the plugin where new tab under single product page named Related Products and display 5 random products from same category. Show the product description under the image
+Automatically add product to cart on visit (do not duplicate the same product).
 
 ## Technologies
 * PHP: > 7.2
@@ -12,4 +13,4 @@ To run this project, just download & install & active it.
 ```
 
 ## Output
-<img src= "image/post-views-1.png"/>
+<img src= "image/woo.png"/>
